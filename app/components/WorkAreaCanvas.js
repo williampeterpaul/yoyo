@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export class Layout extends Component {
+export default class WorkAreaCanvas extends Component {
   render() {
     return (
-      <section>
+      <div className="workarea-canvas">
         {this.props.children}
-      </section>
+      </div>
     );
   }
 }

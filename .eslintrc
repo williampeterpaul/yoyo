@@ -14,7 +14,7 @@
     "import/resolver": {
       "node": {
         "paths": [
-          "src"
+          "app"
         ]
       }
     }

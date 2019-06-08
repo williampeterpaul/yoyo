@@ -3,13 +3,15 @@ import Header from './Header';
 import WorkArea from './WorkArea';
 import Footer from './Footer';
 
-export class Home extends Component {
+export default class Layout extends Component {
   render() {
     return (
       <div>
         <div className="home">
           <Header />
-          <WorkArea />
+          <WorkArea>
+            {this.props.children}
+          </WorkArea>
           <Footer />
         </div>
       </div>

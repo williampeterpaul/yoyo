@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const BabiliWebpackPlugin = require("babili-webpack-plugin");
 
-const SOURCE = Path.resolve(__dirname, "src");
+const SOURCE = Path.resolve(__dirname, "app");
 const OUTPUT = Path.resolve(__dirname, "dist");
 
 module.exports = {

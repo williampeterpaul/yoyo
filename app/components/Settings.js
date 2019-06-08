@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const configuration = require('../modules/configuration');
 
-export class Settings extends Component {
+export default class Settings extends Component {
   constructor(props) {
     super(props);
 

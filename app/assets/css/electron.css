@@ -1,0 +1,27 @@
+.header-middle {
+  -webkit-user-select: none!important;
+  -webkit-app-region: drag!important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #312450;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+:not(input):not(textarea), :not(input):not(textarea)::after, :not(input):not(textarea)::before {
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}

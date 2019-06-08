@@ -30,8 +30,8 @@
     "publish:win": "webpack --config webpack.prd.config.js && build -w -p always",
     "publish:mac": "webpack --config webpack.prd.config.js && build -m -p always",
     "publish:linux": "webpack --config webpack.prd.config.js && build -l -p always",
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint": "eslint app",
+    "lint:fix": "eslint app --fix"
   },
   "devDependencies": {
     "axios": "^0.18.0",
@@ -70,7 +70,7 @@
     "copyright": "Copyright © 2019 ${author}",
     "files": [
       "**/*",
-      "!src${/*}",
+      "!app${/*}",
       "!build/certs${/*}"
     ],
     "forceCodeSigning": false,

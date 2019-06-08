@@ -3,7 +3,10 @@ import React from 'react';
 const WorkAreaNavTop = () => {
   return (
     <div className="workarea-nav-top">
-      Nav Top
+      <ul>
+        <li><a href="#/">Main</a></li>
+        <li><a href="#/Settings">Settings</a></li>
+      </ul>
     </div>
   );
 };
