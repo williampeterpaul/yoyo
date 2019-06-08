@@ -7,9 +7,8 @@ export class Sidebar extends Component {
         <div class="inner">
           <nav>
             <ul>
-              <li><a href="#intro">Intro</a></li>
-              <li><a href="#one">What we do</a></li>
-              <li><a href="#two">App Settings</a></li>
+              <li><a href="#/">Main</a></li>
+              <li><a href="#/settings">Settings</a></li>
             </ul>
           </nav>
         </div>
