@@ -12,3 +12,12 @@ body {
   padding: 2px;
   font-size: 12px;
 }
+
+.workarea-canvas{
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.workarea-nav-top, .workarea-nav-middle, .workarea-nav-bottom{
+  padding: 20px;
+}

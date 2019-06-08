@@ -56,6 +56,11 @@
   width: 180px;
 }
 
+.workarea-nav-middle {
+  flex: 1;
+  background-color: #7CE312;
+}
+
 .workarea-nav-top {
   flex: 1;
   background-color: #7CB342;
