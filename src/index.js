@@ -4,6 +4,8 @@ import { HashRouter } from 'react-router-dom';
 import { App } from './components/App';
 
 import './assets/css/electron-support.css';
+import './assets/css/flex.css';
+import './assets/css/style.css';
 
 const root = document.createElement('div');
 root.id = 'root';
