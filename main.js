@@ -25,7 +25,7 @@ if (lock) {
       height: 720,
       center: true,
       show: false,
-      frame: false
+      titleBarStyle: "hiddenInset"
     });
 
     mainPath = url.format({
