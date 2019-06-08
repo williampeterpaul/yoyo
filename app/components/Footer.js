@@ -1,9 +1,13 @@
 import React from 'react';
 
+import FooterRight from './FooterRight';
+import FooterLeft from './FooterLeft';
+
 const Footer = () => {
   return (
     <div className="footer">
-      Footer
+      <FooterLeft />
+      <FooterRight />
     </div>
   );
 };

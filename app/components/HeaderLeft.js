@@ -3,7 +3,7 @@ import React from 'react';
 const HeaderLeft = () => {
   return (
     <div className="header-left">
-      Header Left
+      Header-left
     </div>
   );
 };

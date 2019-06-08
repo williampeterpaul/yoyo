@@ -1,8 +1,4 @@
-body {
-  margin: 0 0 0 0;
-}
-
-.home {
+.layout {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -36,6 +32,17 @@ body {
   background-color: #DCEDC8;
 }
 
+.footer-left {
+  flex: 1;
+  background-color: #9CCC65;
+}
+
+.footer-right {
+  flex: 1;
+  background-color: #8BC34A;
+  text-align: right;
+}
+
 .workarea {
   display: flex;
   flex-direction: row;
@@ -61,14 +68,4 @@ body {
 .workarea-canvas {
   flex: 1;
   background-color: #9CCC65;
-}
-
-.workarea-canvas-left {
-  flex: 1;
-  background-color: #9CCC65;
-}
-
-.workarea-canvas-right {
-  flex: 1;
-  background-color: #AED581;
 }
