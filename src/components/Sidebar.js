@@ -4,7 +4,7 @@ export class Sidebar extends Component {
   render() {
     return (
       <section id="sidebar">
-        <div class="inner">
+        <div className="inner">
           <nav>
             <ul>
               <li><a href="#/">Main</a></li>

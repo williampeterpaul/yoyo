@@ -36,8 +36,6 @@ function validate(configuration) {
 
   const result = validator.validate(configuration, schema);
 
-  if (!result.valid) console.log(result.errors);
-
   return result.valid;
 }
 

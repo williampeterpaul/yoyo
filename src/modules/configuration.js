@@ -9,11 +9,11 @@ const settingsName = 'configuration.settings';
 
 const appDefaults = {
   preferences: {
-    optional: true
+    optional: true,
   },
   settings: {
     nickname: 'nick',
-    email: 'email'
+    email: 'email',
   },
 };
 

@@ -14,4 +14,5 @@ ReactDOM.render(
   <HashRouter>
     <App />
   </HashRouter>,
-  document.getElementById('root'));
+  document.getElementById('root'),
+);
