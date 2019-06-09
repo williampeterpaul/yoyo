@@ -13,11 +13,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: rgb(168, 168, 168);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #666;
+  background: rgb(146, 146, 146);
 }
 
 :not(input):not(textarea), :not(input):not(textarea)::after, :not(input):not(textarea)::before {

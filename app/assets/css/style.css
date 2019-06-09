@@ -3,12 +3,9 @@ body {
   font-family: Arial, Helvetica, Helvetica Neue;
 }
 
-.footer-left {
-  padding: 2px;
-  font-size: 12px;
-}
-
-.footer-right {
+.footer {
+  color: white;
+  background-color: #007acc;
   padding: 2px;
   font-size: 12px;
 }
@@ -18,6 +15,21 @@ body {
   overflow-y: scroll;
 }
 
-.workarea-nav-top, .workarea-nav-middle, .workarea-nav-bottom{
+.workarea-nav-middle {
   padding: 20px;
+  background-color: #7CE312;
+}
+
+.workarea-nav-top {
+  padding: 20px;
+  background-color: #7CB342;
+}
+
+.workarea-nav-bottom {
+  padding: 20px;
+  background-color: #AED581;
+}
+
+.workarea-canvas {
+  background-color: #9CCC65;
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+const movies = require("../../movies.json");
+
 export default class Main extends Component {
   render() {
     return (

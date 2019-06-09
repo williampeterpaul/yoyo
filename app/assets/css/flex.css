@@ -12,17 +12,8 @@
 }
 
 .header-middle {
-  background-color: #DCEDC8;
   flex: 1;
   text-align: center;
-}
-
-.header-left {
-  background-color: #9CCC65;
-}
-
-.header-right {
-  background-color: #8BC34A;
 }
 
 .footer {
@@ -31,22 +22,17 @@
 }
 
 .footer-middle {
-  background-color: #DCEDC8;
   flex: 1;
   text-align: center;
-}
-
-.footer-left {
-  background-color: #9CCC65;
-}
-
-.footer-right {
-  background-color: #8BC34A;
 }
 
 .workarea {
   display: flex;
   flex-direction: row;
+  flex: 1;
+}
+
+.workarea-canvas {
   flex: 1;
 }
 
@@ -58,20 +44,12 @@
 
 .workarea-nav-middle {
   flex: 1;
-  background-color: #7CE312;
 }
 
 .workarea-nav-top {
   flex: 1;
-  background-color: #7CB342;
 }
 
 .workarea-nav-bottom {
   flex: 1;
-  background-color: #AED581;
-}
-
-.workarea-canvas {
-  flex: 1;
-  background-color: #9CCC65;
 }

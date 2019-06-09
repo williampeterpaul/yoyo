@@ -5,8 +5,8 @@ const WorkAreaNavMiddle = () => {
     <div className="workarea-nav-middle">
       <h5>MOVIES BY</h5>
       <ul>
-        <li><a href="#/">All Movies</a></li>
-        <li><a href="#/">Top Rated Movies</a></li>
+        <li><a href="#/all">All Movies</a></li>
+        <li><a href="#/rated">Top Rated Movies</a></li>
       </ul>
     </div>
   );

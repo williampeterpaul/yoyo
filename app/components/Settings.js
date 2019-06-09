@@ -17,10 +17,8 @@ export default class Settings extends Component {
   render() {
     return (
       <section id="settings">
-        <div className="inner">
-          <h1>What is up this is the settings</h1>
-          <p>{this.state.configuration.preferences.email}</p>
-        </div>
+        <h1>What is up this is the settings</h1>
+        <p>{this.state.configuration.settings.email}</p>
       </section>
     );
   }
