@@ -2,6 +2,17 @@ body {
   margin: 0 0 0 0;
   font-family: Arial, Helvetica, Helvetica Neue;
 }
+.header-middle {
+  background-color: #DCEDC8;
+}
+
+.header-left {
+  background-color: #9CCC65;
+}
+
+.header-right {
+  background-color: #8BC34A;
+}
 
 .footer {
   color: white;
@@ -13,6 +24,7 @@ body {
 .workarea-canvas{
   padding: 20px;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .workarea-nav-middle {

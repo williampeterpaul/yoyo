@@ -1,7 +1,6 @@
 import React from 'react';
 
-const WorkAreaNavTop = () => {
-  return (
+const WorkAreaNavTop = () => (
     <div className="workarea-nav-top">
       <h5>MY MOVIES</h5>
       <ul>
@@ -9,7 +8,6 @@ const WorkAreaNavTop = () => {
         <li><a href="#/recents">Recently Viewed</a></li>
       </ul>
     </div>
-  );
-};
+);
 
 export default WorkAreaNavTop;

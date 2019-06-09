@@ -1,11 +1,9 @@
 import React from 'react';
 
-const HeaderRight = () => {
-  return (
+const HeaderRight = () => (
     <div className="header-right">
       Header-right
     </div>
-  );
-};
+);
 
 export default HeaderRight;

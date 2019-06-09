@@ -20,6 +20,10 @@
   background: rgb(146, 146, 146);
 }
 
+::-webkit-scrollbar-thumb:active {
+  background: rgb(126, 126, 126);
+}
+
 :not(input):not(textarea), :not(input):not(textarea)::after, :not(input):not(textarea)::before {
   -webkit-user-select: none;
   user-select: none;

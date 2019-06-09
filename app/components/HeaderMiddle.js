@@ -1,10 +1,8 @@
 import React from 'react';
 
-const HeaderMiddle = () => {
-  return (
+const HeaderMiddle = () => (
     <div className="header-middle">
     </div>
-  );
-};
+);
 
 export default HeaderMiddle;

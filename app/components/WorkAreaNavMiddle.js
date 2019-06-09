@@ -1,7 +1,6 @@
 import React from 'react';
 
-const WorkAreaNavMiddle = () => {
-  return (
+const WorkAreaNavMiddle = () => (
     <div className="workarea-nav-middle">
       <h5>MOVIES BY</h5>
       <ul>
@@ -9,7 +8,6 @@ const WorkAreaNavMiddle = () => {
         <li><a href="#/rated">Top Rated Movies</a></li>
       </ul>
     </div>
-  );
-};
+);
 
 export default WorkAreaNavMiddle;

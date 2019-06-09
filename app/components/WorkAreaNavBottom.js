@@ -1,7 +1,6 @@
 import React from 'react';
 
-const WorkAreaNavBottom = () => {
-  return (
+const WorkAreaNavBottom = () => (
     <div className="workarea-nav-bottom">
       <h5>MENU</h5>
       <ul>
@@ -12,7 +11,6 @@ const WorkAreaNavBottom = () => {
         <li><a href="#/bugs">Bug Report</a></li>
       </ul>
     </div>
-  );
-};
+);
 
 export default WorkAreaNavBottom;
