@@ -1,8 +1,7 @@
 import React from 'react';
 
 const WorkAreaNavTop = () => (
-    <div className="workarea-nav-top">
-    <div class="navigation__list">
+    <div className="workarea-nav-top navigation__list">
       <div class="navigation__list__header" href="#main">
         Main
       </div>
@@ -20,7 +19,6 @@ const WorkAreaNavTop = () => (
         <span>Radio</span>
         </a>
       </div>
-    </div>
     </div>
 );
 
