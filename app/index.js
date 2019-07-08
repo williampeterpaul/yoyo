@@ -5,7 +5,18 @@ import App from './components/App';
 
 import './assets/css/electron.css';
 import './assets/css/flex.css';
-import './assets/css/style.css';
+import './assets/css/style.old.css';
+
+import './assets/css/style.css'
+import './assets/css/bootstrap.css'
+import './assets/css/roboto.css'
+import './assets/css/ionicons.css'
+
+import './assets/fonts/ionicons.eot'
+import './assets/fonts/ionicons.svg'
+import './assets/fonts/ionicons.ttf'
+import './assets/fonts/ionicons.woff'
+
 
 const root = document.createElement('div');
 root.id = 'root';
