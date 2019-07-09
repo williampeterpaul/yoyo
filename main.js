@@ -23,6 +23,8 @@ if (lock) {
     mainWindow = new BrowserWindow({
       width: 1280,
       height: 720,
+      minWidth: 800,
+      minHeight: 600,
       center: true,
       show: false,
       titleBarStyle: "hiddenInset"

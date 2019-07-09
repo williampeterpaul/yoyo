@@ -3,29 +3,17 @@
   -webkit-app-region: drag!important;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #9CCC65;
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(168, 168, 168);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(146, 146, 146);
-}
-
-::-webkit-scrollbar-thumb:active {
-  background: rgb(126, 126, 126);
-}
-
 :not(input):not(textarea), :not(input):not(textarea)::after, :not(input):not(textarea)::before {
   -webkit-user-select: none;
   user-select: none;
   cursor: default;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: #373737;
 }
