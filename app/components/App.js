@@ -7,7 +7,6 @@ import Playlists from './Playlists';
 import Settings from './Settings';
 import About from './About';
 import Bugs from './Bugs';
-import Favourites from './Favourites';
 
 export default class App extends Component {
   render() {
@@ -18,7 +17,6 @@ export default class App extends Component {
         <Route exact path="/settings" component={Settings} />
         <Route exact path="/about" component={About} />
         <Route exact path="/bugs" component={Bugs} />
-        <Route exact path="/favourites" component={Favourites} />
       </Layout>
     );
   }

@@ -16,7 +16,7 @@ export default class Settings extends Component {
 
   render() {
     return (
-      <section id="settings">
+      <section className="section-title">
         <h1>What is up this is the settings</h1>
         <p>{this.state.configuration.settings.email}</p>
       </section>

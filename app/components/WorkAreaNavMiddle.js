@@ -11,8 +11,8 @@ const WorkAreaNavMiddle = () => (
         <span>Playlists</span>
       </a>
       <a href="#" class="navigation__list__item">
-        <i class="ion-document"></i>
-        <span>Local Files</span>
+        <i class="ion-clock"></i>
+        <span>Downloading</span>
       </a>
     </div>
   </div>
