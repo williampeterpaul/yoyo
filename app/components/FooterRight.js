@@ -4,7 +4,7 @@ const version = require('../../package.json').version;
 
 const Footer = () => (
     <div className="footer-right">
-      version {version}
+      Version {version}
     </div>
 );
 
