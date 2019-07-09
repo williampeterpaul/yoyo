@@ -41,7 +41,7 @@ body a:hover, body a:focus, body a:active {
 .navigation__list__item:hover {
   color: white;
   text-decoration: none;
-  border-right: 3px solid #1ed760;
+  border-right: 3px solid #007acc;
 }
 .navigation__list__item i {
   width: 25px;
@@ -96,6 +96,163 @@ body a:hover, body a:focus, body a:active {
   text-align: center;
   font-size: 18px;
   line-height: 1;
+}
+.artist__header {
+  height: 220px;
+  margin: -15px -15px 0 -15px;
+  border-bottom: 1px solid #282828;
+  position: relative;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/spotify_img_bground.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.artist__header:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.15;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/g-eazy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.artist__header .artist__info {
+  padding: 15px;
+  z-index: 1;
+  width: 80%;
+  margin-top: 78px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+.artist__header .artist__info .profile__img {
+  margin-right: 15px;
+}
+.artist__header .artist__info .profile__img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.artist__header .artist__info__type {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.artist__header .artist__info__name {
+  color: white;
+  font-size: 36px;
+  font-weight: 100;
+  padding: 0 0 10px 0;
+}
+.artist__header .artist__info__actions {
+  display: flex;
+  flex-flow: row wrap;
+}
+.artist__header .artist__info__actions button {
+  margin-right: 10px;
+  height: 27px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 0 15px;
+  font-weight: 500;
+}
+.artist__header .artist__info__actions button i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.artist__header .artist__info__actions .more {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  padding: 0;
+  text-align: center;
+}
+.artist__header .artist__info__actions .more i {
+  margin: 0;
+  padding-left: 6px;
+}
+.artist__header .artist__listeners {
+  width: 20%;
+  z-index: 1;
+  padding: 15px;
+  text-align: right;
+  color: #aaaaaa;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.artist__header .artist__listeners__label {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.artist__header .artist__navigation {
+  width: 100%;
+  z-index: 1;
+  background: rgba(24, 24, 24, 0.6);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.artist__header .artist__navigation ul {
+  border: none;
+}
+.artist__header .artist__navigation ul li {
+  padding: 0 15px;
+}
+.artist__header .artist__navigation ul li a {
+  padding: 15px 0;
+  color: #aaaaaa;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.4s ease;
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
+.artist__header .artist__navigation ul li a:hover {
+  background: none;
+  border: none;
+  color: white;
+  transition: all 0.4s ease;
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
+.artist__header .artist__navigation ul li.active a {
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 4px solid #007acc;
+}
+.artist__header .artist__navigation ul li.active a:hover {
+  border-bottom: 4px solid #007acc;
+}
+.artist__header .artist__navigation__friends {
+  padding: 15px;
+}
+.artist__header .artist__navigation__friends img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+.artist__header .artist__navigation__friends .tooltip {
+  z-index: 1;
+  position: absolute;
 }
 .artist__content .overview {
   display: flex;
@@ -239,7 +396,7 @@ body a:hover, body a:focus, body a:active {
   margin-right: 10px;
 }
 .album__info__meta .album__actions .save:hover {
-  border-color: #1ed760;
+  border-color: #007acc;
 }
 .album__info__meta .album__actions .more {
   width: 27px;
@@ -341,12 +498,12 @@ button:hover {
 }
 
 .button-dark {
-  background: #1ed760;
+  background: #007acc;
   color: white;
-  border: 1px solid #1ed760;
+  border: 1px solid #007acc;
 }
 .button-dark:hover {
-  background: #43e57d;
+  background: #007acc;
 }
 
 .button-light {

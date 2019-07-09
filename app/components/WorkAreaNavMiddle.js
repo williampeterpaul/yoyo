@@ -10,7 +10,7 @@ const WorkAreaNavMiddle = () => (
         <i class="ion-ios-musical-notes"></i>
         <span>Playlists</span>
       </a>
-      <a href="#" class="navigation__list__item">
+      <a href="#/Downloading" class="navigation__list__item">
         <i class="ion-clock"></i>
         <span>Downloading</span>
       </a>

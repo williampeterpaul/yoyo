@@ -16,10 +16,18 @@ export default class Settings extends Component {
 
   render() {
     return (
-      <section className="section-title">
-        <h1>What is up this is the settings</h1>
+      <div class="artist__content">
+        <div class="artist__header">
+          <div class="artist__info">
+            <div class="artist__info__meta">
+              <div class="artist__info__type">yoyo - Youtube mp3 Downloader</div>
+              <div class="artist__info__name">Settings</div>
+            </div>
+          </div>
+        </div>
+        <h1 className="section-title">Your email addy</h1>
         <p>{this.state.configuration.settings.email}</p>
-      </section>
+      </div>
     );
   }
 }
